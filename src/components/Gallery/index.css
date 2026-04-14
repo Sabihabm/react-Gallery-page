@@ -1,0 +1,39 @@
+.image {
+  height: 72vh;
+  width: 94vw;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.Gallery-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 22px;
+}
+
+.thumbnailItems-lists {
+  display: flex;
+  margin: 0px;
+}
+
+.head {
+  font-size: 24px;
+  padding-left: 24px;
+  color: #1e293b;
+  margin-top: 0px;
+}
+
+.text {
+  font-size: 18px;
+  color: #64748b;
+  padding-left: 28px;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .image {
+    height: 80vh;
+    width: 76vw;
+  }
+}

@@ -1,0 +1,21 @@
+.ThubnailItems {
+  list-style: none;
+  margin: 5px;
+}
+
+.imgUrl {
+  opacity: 0.5;
+  height: 6vh;
+}
+
+.btn {
+  border-radius: 0px;
+  border-width: 0px;
+  background-color: transparent;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .imgUrl {
+    height: 10vh;
+  }
+}
